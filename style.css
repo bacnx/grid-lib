@@ -1,0 +1,30 @@
+.item {
+  background-color: greenyellow;
+  color: #fff;
+  font-size: 20px;
+  line-height: 4;
+  text-align: center;
+  font-size: 32px;
+}
+
+.main {
+  padding: 0 32px;
+  display: flex;
+}
+
+.category{
+  width: 300px;
+  height: 1200px;
+  background-color: aqua;
+  margin-right: 24px;
+}
+
+@media (max-width: 960px) {
+  .category {
+    display: none;
+  }
+}
+
+.content {
+  flex: 1;
+}
